@@ -1,15 +1,20 @@
 body {
 	font-family: Cambria;
-	background-color: black;
-	color: white;
+	background-color: #0A0E14;
+	color: grey;
 	/*background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);*/
+	/*background-color: #000000;*/
+	/*background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);*/
 }
-#nav a {
+#nav {
 	color: white;
+	margin: auto;
+	text-align: center;
+	/*background-color: darkblue;*/
 }
 
 a {
-	color: white;
+	color: lightgrey;
 }
 
 a:hover {
@@ -22,8 +27,27 @@ a:active {
 }
 
 a:visited {
+	color: darkgrey;
+}
+
+div.books-list {
+	/*background-color: #00010A;*/
+	text-align: left;
+	width: 600px;
+	margin: auto;
+	padding: 10px;
+
+}
+
+#welcome{
+	text-align: center;
+	color:white;
+}
+
+h4 {
 	color: white;
 }
 
-#books-list {
+img {
+	filter: invert(100%);
 }
