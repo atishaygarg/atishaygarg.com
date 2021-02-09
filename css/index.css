@@ -47,7 +47,3 @@ div.books-list {
 h4 {
 	color: white;
 }
-
-img {
-	filter: invert(100%);
-}
