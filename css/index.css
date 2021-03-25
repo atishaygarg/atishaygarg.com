@@ -1,12 +1,25 @@
 body {
 	font-family: Cambria;
-	background-color: #0A0E14;
+	background-color: #ffffff;
 	color: grey;
 	/*background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);*/
 	/*background-color: #000000;*/
 	/*background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);*/
 }
+body.dark {
+	font-family: Cambria;
+	background-color: #0A0E14;
+	color: grey;	
+}
+
 nav {
+	color: black;
+	margin: auto;
+	text-align: center;
+	/*background-color: darkblue;*/
+}
+
+nav.dark {
 	color: white;
 	margin: auto;
 	text-align: center;
@@ -14,10 +27,18 @@ nav {
 }
 
 a {
+	color: black;
+}
+
+body.dark a {
 	color: lightgrey;
 }
 
 a:hover {
+	color: grey;
+	text-decoration: underline;
+}
+body.dark a:hover {
 	color: white;
 	text-decoration: underline;
 }
@@ -26,7 +47,15 @@ a:active {
 	color: grey;
 }
 
+a.dark:active {
+	color: grey;
+}
+
 a:visited {
+	color: darkgrey;
+}
+
+body.dark a:visited {
 	color: darkgrey;
 }
 
@@ -36,14 +65,28 @@ div.books-list {
 	width: 600px;
 	margin: auto;
 	padding: 10px;
-
 }
 
 #welcome{
+	text-align: center;
+	color:black;
+}
+
+body.dark #welcome{
 	text-align: center;
 	color:white;
 }
 
 h4 {
+	color: black;
+}
+
+body.dark h4 {
 	color: white;
+}
+
+button {
+	position: absolute; 
+	right: 0;
+	/*align-content: right;*/
 }
