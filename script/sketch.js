@@ -6,7 +6,7 @@ function setup() {
 
 function pie(colour, w, x, y) {
  fill(colour);
- var h = map(mouseY, 0, height, 0, 360);
+ var h = map(mouseX, 0, width, 0, 360);
  arc(x, y, w, w, radians(0), radians(h));
 }
 
@@ -20,7 +20,7 @@ function draw() {
   // background(255);
   fill(100, 10, 20);
   noStroke();
-  var c = map(mouseX, 0, height, 0, 255);
+  var c = map(mouseY, 0, height, 0, 255);
   // var col = color(c);
   for (h = 1; h < 9; h++) {
     for (w = 1; w < 9; w++) {
