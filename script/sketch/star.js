@@ -20,6 +20,9 @@ function Star() {
     else if (theme == "light") {
       fill(0);
     }
+    else if (theme == null) {
+      fill(0);
+    }
     noStroke();
     
     var sx = map(this.x /this.z, 0, 1, 0, width);
@@ -37,6 +40,9 @@ function Star() {
     }
     else if (theme == "light") {
       stroke(0);
+    }
+    else if (theme == null) {
+      stroke(0)
     }
     // stroke(255);
     line(px, py, sx, sy);

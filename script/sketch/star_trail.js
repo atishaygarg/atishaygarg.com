@@ -21,6 +21,9 @@ function draw() {
   else if (theme == "light") {
     background(255);
   }
+  else if (theme == null) {
+    background(255);
+  }
   if (!mouseIsPressed) {
     new_speed = map(mouseX, 0, width, 0, 50);
     //translate(width/2, height/2);
