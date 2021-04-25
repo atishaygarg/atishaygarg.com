@@ -22,17 +22,22 @@
   <script src="../assets/js/index.js"></script>
 </head>
 <body>
-<nav>
+
+<div class="top-nav">
 <a class="name" href="index.html">Atishay Garg</a>
+<div class="right-nav">
 <a href="index.html">Home</a>
-<a class="active" href=".">Reading</a>
+<a class="active" href="reading.html">Reading</a>
 <a href="blog.html">Blog</a>
 <a href="contact.html">Contact</a>
-</nav>
+</div>
+</div>
+
 
 <button onclick="darkMode()">Toggle Dark Mode</button>
+<div class='reading'>
 <h4 id="books-read-in-2021">Books read in 2021</h4>
-<ul>
+<ol type="1">
 <li><a href="https://www.google.com/search?q=Debt:%20The%20First%205,000%20Years%20by%20David%20Graeber">Debt: The First 5,000 Years</a> by David Graeber</li>
 <li><a href="https://www.google.com/search?q=Mastering%20Ethereum:%20Building%20Smart%20Contracts%20and%20DApps%20by%20Andreas%20M.%20Antonopoulos%20and%20Dr.%20Gavin%20Wood">Mastering Ethereum: Building Smart Contracts and DApps</a> by Andreas M. Antonopoulos and Dr. Gavin Wood</li>
 <li><a href="https://www.google.com/search?q=The%20Little%20Book%20of%20Common%20Sense%20Investing%20by%20John%20C.%20Bogle">The Little Book of Common Sense Investing</a> by John C. Bogle</li>
@@ -53,9 +58,9 @@
 <li><a href="https://www.google.com/search?q=Kargil%20From%20Surprise%20to%20Victory%20by%20General%20V.%20P.%20Malik">Kargil From Surprise to Victory</a> by General V. P. Malik</li>
 <li><a href="https://www.google.com/search?q=The%20Inimitable%20Jeeves%20by%20P.%20G.%20Wodehouse">The Inimitable Jeeves</a> by P. G. Wodehouse</li>
 <li><a href="https://www.google.com/search?q=Carry%20on,%20Jeeves%20by%20P.%20G.%20Wodehouse">Carry on, Jeeves</a> by P. G. Wodehouse</li>
-</ul>
+</ol>
 <h4 id="books-read-in-2020">Books read in 2020</h4>
-<ul>
+<ol type="1">
 <li><a href="https://www.google.com/search?q=Digital%20Fortress">Digital Fortress</a></li>
 <li><a href="https://www.google.com/search?q=Stories%20of%20your%20life%20and%20others%20by%20Ted%20Chiang">Stories of your life and others</a> by Ted Chiang</li>
 <li><a href="https://www.google.com/search?q=Influence%20the%20Psychology%20of%20Persuation%20by%20Robert%20B.%20Cialdini">Influence the Psychology of Persuation</a> by Robert B. Cialdini</li>
@@ -71,7 +76,7 @@
 <li><a href="https://www.google.com/search?q=Powershell%20by%20Don%20Jones">Powershell</a> by Don Jones</li>
 <li><a href="https://www.google.com/search?q=Sophie&#39;s%20World%20by%20Jostein%20Gaarder">Sophie’s World</a> by Jostein Gaarder</li>
 <li><a href="https://www.google.com/search?q=Princess%20by%20Jean%20Sasson">Princess</a> by Jean Sasson</li>
-<li><a href="https://www.google.com/search?q=The%20Little%20Schemer%20by%20Daniel%20P.%20Friedman">The Little Schemer</a> by Daniel P. Friedman</li>
+<li><a href="https://www.google.com/search?q=The%20Little%20Schemer%20by%20Dan7iel%20P.%20Friedman">The Little Schemer</a> by Daniel P. Friedman</li>
 <li><a href="https://www.google.com/search?q=Code%20by%20Charles%20Petzold">Code</a> by Charles Petzold</li>
 <li><a href="https://www.google.com/search?q=Metadata%20by%20Jeffrey%20Pomerantz">Metadata</a> by Jeffrey Pomerantz</li>
 <li><a href="https://www.google.com/search?q=The%20Ride%20of%20a%20Lifetime%20by%20Robert%20Iger">The Ride of a Lifetime</a> by Robert Iger</li>
@@ -99,9 +104,9 @@
 <li><a href="https://www.google.com/search?q=How%20to%20Take%20Smart%20Notes%20by%20Sonke%20Ahrens">How to Take Smart Notes</a> by Sonke Ahrens</li>
 <li><a href="https://www.google.com/search?q=A%20Man%20Called%20Ove%20by%20Fredrik%20Backman">A Man Called Ove</a> by Fredrik Backman</li>
 <li><a href="https://www.google.com/search?q=Inside%20Black%20Mirror%20with%20Jason%20Arnopp%20with%20Jason%20Arnopp">Inside Black Mirror</a></li>
-</ul>
+</ol>
 <h4 id="books-read-in-2019">Books read in 2019</h4>
-<ul>
+<ol type="1">
 <li><a href="https://www.google.com/search?q=Devil&#39;s%20Advocate%20by%20Karan%20Thapar">Devil’s Advocate</a> by Karan Thapar</li>
 <li><a href="https://www.google.com/search?q=Endurance%20by%20Alfred%20Lansing">Endurance</a> by Alfred Lansing</li>
 <li><a href="https://www.google.com/search?q=The%20Martian%20by%20Andy%20Weir">The Martian</a> by Andy Weir</li>
@@ -131,7 +136,9 @@
 <li><a href="https://www.google.com/search?q=The%20Great%20Mental%20Models%20Vol.%201%20by%20Shane%20Parish">The Great Mental Models Vol. 1</a> by Shane Parish</li>
 <li><a href="https://www.google.com/search?q=The%20Wise%20Man&#39;s%20Fear%20by%20Patrick%20Rothfuss">The Wise Man’s Fear</a> by Patrick Rothfuss</li>
 <li><a href="https://www.google.com/search?q=The%20Snowball:%20Warren%20Buffett%20and%20the%20Business%20of%20Life%20by%20Alice%20Schroeder">The Snowball: Warren Buffett and the Business of Life</a> by Alice Schroeder</li>
-</ul>
+</ol>
 <p>–</p>
+</div>
+<script type="text/javascript">setMode();</script>
 </body>
 </html>

@@ -1,53 +1,65 @@
 body {
-	font-family: Cambria;
+	font-family: adobe-garamond-pro;
 	background-color: #ffffff;
 	color: grey;
+	font-weight: 400;
 	/*background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);*/
 	/*background-color: #000000;*/
 	/*background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);*/
 }
+
 body.dark {
 	font-family: Cambria;
 	background-color: #0A0E14;
 	color: grey;	
 }
 
-nav {
+.top-nav {
 	top: 0;
 	width: 100%;
 	color: black;
+	/*position: absolute*/
+	overflow: hidden;
 	/*margin: auto;*/
 	text-align: center;
-	display: flex;
+	/*padding:  20px 16px;*/
+	/*display: flex;*/
 	/*position: fixed;*/
 	/*overflow: auto;*/
-	/*background-color: yellow;*/
+	/*background-color: red;*/
 }
 
-nav.dark {
-	color: white;
-	margin: auto;
-	text-align: center;
-	/*background-color: darkblue;*/
+.top-nav a:hover {
+	border-bottom-style: solid;
+	color: black;
+	text-decoration: none;
 }
 
-
-nav a {
+.top-nav a {
 	padding:  20px 16px;
 	font-size: 17px;
 	text-align: center;
 	text-decoration: none;
-	/*float: left;*/
+	float: left;
+	/*color: black;*/
+	background-color: white;
 	/*display: flex;*/
 
 }
 
-nav a.name {
-	font-size: 20px;
-	text-align: none;
+a.name {
+	font-size: 23px;
+}
+
+
+.right-nav {
+	float: right;
+	font-size: 17px;
+	/*text-align: none;*/
 	/*background-color: #ffffff;*/
 	/*float: left;*/
-	text-decoration: none;
+	/*background-color: white;*/
+	/*text-decoration: none;*/
 	/*display: flex;*/
 }
 
@@ -82,15 +94,22 @@ a.dark:active {
 	color: grey;
 }
 
-a:visited {
+/*a:visited {
 	color: darkgrey;
-}
+}*/
 
-body.dark a:visited {
+/*body.dark a:visited {
 	color: darkgrey;
-}
+}*/
 
-div.books-list {
+.books-list {
+	/*background-color: #00010A;*/
+	text-align: left;
+	width: 600px;
+	margin: auto;
+	padding: 10px;
+}
+.reading {
 	/*background-color: #00010A;*/
 	text-align: left;
 	width: 600px;
@@ -121,3 +140,4 @@ button {
 	right: 0;
 	/*align-content: right;*/
 }
+
