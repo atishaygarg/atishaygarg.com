@@ -13,10 +13,15 @@ body.dark {
 }
 
 nav {
+	top: 0;
+	width: 100%;
 	color: black;
-	margin: auto;
+	/*margin: auto;*/
 	text-align: center;
-	/*background-color: darkblue;*/
+	display: flex;
+	/*position: fixed;*/
+	/*overflow: auto;*/
+	/*background-color: yellow;*/
 }
 
 nav.dark {
@@ -24,6 +29,32 @@ nav.dark {
 	margin: auto;
 	text-align: center;
 	/*background-color: darkblue;*/
+}
+
+
+nav a {
+	padding:  20px 16px;
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+	/*float: left;*/
+	/*display: flex;*/
+
+}
+
+nav a.name {
+	font-size: 20px;
+	text-align: none;
+	/*background-color: #ffffff;*/
+	/*float: left;*/
+	text-decoration: none;
+	/*display: flex;*/
+}
+
+.active {
+	/*border-bottom-width: 3px;*/
+	border-bottom-style: solid;
+	/*text-decoration: underline;*/
 }
 
 a {
