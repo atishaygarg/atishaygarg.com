@@ -9,7 +9,7 @@ body {
   color: #444;
 	background-color: #ffffff;
 	font-family: Alegreya;
-	color: grey;
+	/*color: grey;*/
 	font-size: 14px;
 	line-height: 1.7;
 	padding: 1em;
@@ -225,9 +225,10 @@ sup {
   top: -0.5em;
 }
 
-a.footnote-ref {
-  text-decoration: none;
+a.footnote-ref, #refs a {
+  text-decoration: underline;
   border-bottom: none;
+  color: #444;
 }
 
 .sourceCode {
