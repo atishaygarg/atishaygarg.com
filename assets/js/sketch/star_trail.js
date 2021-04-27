@@ -33,11 +33,11 @@ function draw() {
     speed = new_speed;
   }
   //translate(width / 2, height / 2);
-  if (mouseIsPressed) {
-    //translate(mouseX, mouseY);
-    tx = mouseX
-    ty = mouseY
-  }
+  // if (mouseIsPressed) {
+  //   //translate(mouseX, mouseY);
+  //   tx = mouseX
+  //   ty = mouseY
+  // }
   if ((tx == null) && (ty == null)) {
     tx = width/2;
     ty = height/2;
