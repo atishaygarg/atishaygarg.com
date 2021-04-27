@@ -64,9 +64,10 @@ body .home, .blog {
 
 svg {
   fill: #000;
-  width: 15px;
-  /*height: 15px;*/
-  /*bottom: -0.15em;*/
+  max-width: 15px;
+  height: 15px;
+  bottom: -0.15em;
+  /*padding: 19px, 16px;*/
 }
 
 p {
@@ -347,6 +348,7 @@ body .top-nav {
 	text-align: center !important;
 	text-decoration: none !important;
 	float: left;
+  max-height: 30px;
 	border-bottom: none;
 	/*color: black;*/
 	background-color: white;
@@ -354,6 +356,10 @@ body .top-nav {
 
 }
 
+.top-nav a.social-media-icon {
+  padding:  20px 8.5px !important;
+
+}
 a.name {
 	font-size: 19px !important;
 }
