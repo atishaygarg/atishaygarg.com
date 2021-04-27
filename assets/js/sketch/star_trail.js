@@ -26,7 +26,7 @@ function draw() {
     background(255);
   }
   if (!mouseIsPressed) {
-    new_speed = map(mouseX, 0, width, -50, 50);
+    new_speed = map(mouseX, 0, width, -5, 60);
     //translate(width/2, height/2);
   }
   if (new_speed != null) {
