@@ -52,17 +52,17 @@ function draw(){
     particles_d[i].checkEdge();
   }  
 
-  if (mouseIsPressed) {
-      background(0);
-      var seed = random()
-      noiseSeed(seed)
-      for(var i = 0; i < nums; i++){
-          particles_a[i] = new Particle(random(0, width),random(0,height));
-          particles_b[i] = new Particle(random(0, width),random(0,height));
-          particles_c[i] = new Particle(random(0, width),random(0,height));
-          particles_d[i] = new Particle(random(0, width),random(0,height));
-     }
-  }
+  // if (mouseIsPressed) {
+  //     background(0);
+  //     var seed = random()
+  //     noiseSeed(seed)
+  //     for(var i = 0; i < nums; i++){
+  //         particles_a[i] = new Particle(random(0, width),random(0,height));
+  //         particles_b[i] = new Particle(random(0, width),random(0,height));
+  //         particles_c[i] = new Particle(random(0, width),random(0,height));
+  //         particles_d[i] = new Particle(random(0, width),random(0,height));
+  //    }
+  // }
 }
 
 
