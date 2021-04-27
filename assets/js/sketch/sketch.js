@@ -1,7 +1,8 @@
 let theme = localStorage.getItem('theme')
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(200, 200);
+  canvas.parent('sketch-holder');
 }
 
 function pie(colour, w, x, y) {

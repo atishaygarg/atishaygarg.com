@@ -27,6 +27,36 @@ body .main {
   margin: auto;
 }
 
+
+#sketch-outer {
+    /*width: 1000px;  some width amount needed */
+    margin: 0 auto; 
+    overflow: visible;
+}
+
+
+#sketch-holder {
+    display: inline-block; 
+    position:relative; 
+    right: -50%;
+}
+
+#sketch-holder canvas {
+  /*display: flex;*/
+  /*margin: auto;*/
+  overflow: hidden;
+  /*padding: 1em;*/
+  /*object-fit: cover;*/
+  /*left: -50%;*/
+  position: relative; 
+  left:-50%; 
+  /*width: 100%;*/
+  /*width: 100vw;*/
+  /*position: relative;*/
+  /*left: calc(-50vw + 50%);*/
+
+  }  
+
 body .home, .blog {
   text-align: center;
 
@@ -34,7 +64,8 @@ body .home, .blog {
 
 svg {
   fill: #000;
-  height: 15px;
+  width: 15px;
+  /*height: 15px;*/
   /*bottom: -0.15em;*/
 }
 
@@ -52,7 +83,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 30%;
   overflow: hidden;
   -ms-interpolation-mode: bicubic;
   vertical-align: middle;
@@ -100,6 +131,7 @@ h4, h5, h6 {
 
 h1 {
   font-size: 2.5em;
+  text-align: center;
 }
 
 h2 {

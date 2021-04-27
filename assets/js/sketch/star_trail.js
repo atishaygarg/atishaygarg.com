@@ -7,7 +7,8 @@ var tx;
 var ty;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(windowWidth, 500);
+  canvas.parent('sketch-holder');
   for (let i=0; i < 800; i++) {
     stars[i] = new Star();
   }
@@ -25,7 +26,7 @@ function draw() {
     background(255);
   }
   if (!mouseIsPressed) {
-    new_speed = map(mouseX, 0, width, 0, 50);
+    new_speed = map(mouseX, 0, width, -50, 50);
     //translate(width/2, height/2);
   }
   if (new_speed != null) {
