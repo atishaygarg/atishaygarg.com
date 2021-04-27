@@ -84,7 +84,7 @@ a {
 }
 
 img {
-  max-width: 30%;
+  max-width: 100%;
   overflow: hidden;
   -ms-interpolation-mode: bicubic;
   vertical-align: middle;
@@ -95,6 +95,10 @@ img {
   /*object-fit: cover;*/
   padding: 5px 5px;
   /*float: middle;*/
+}
+
+img.gallery {
+  max-width: 30%;
 }
 
 p < img {
