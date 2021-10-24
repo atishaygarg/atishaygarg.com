@@ -2,7 +2,34 @@
 	"folders":
 	[
 		{
-			"path": "."
-		}
-	]
+
+			"path": ".",
+		},
+		{
+			"path": "/home/atishaygarg/wn/ztl",
+			"file_exclude_patterns":
+			[
+				"*.aux",
+				"*.log",
+				"*.gz",
+				"*.pdf",
+				"*.fdb_latexmk",
+				"*.fls",
+				"*.tex"
+			],
+			"file_include_patterns":
+			[
+				"* - BG *.md",
+				"*.html"
+			],
+			"folder_exclude_patterns":
+			[
+				"__pycache__",
+				"sublime-plugin",
+				"play",
+				"working"
+			],
+			"name": "ZTL - Blog",
+		},
+	],
 }
